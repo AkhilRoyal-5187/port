@@ -38,18 +38,8 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
+ 
+  
   {
     skill_name: "TypeScript",
     image: "ts.png",
@@ -62,18 +52,7 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
+  
   {
     skill_name: "Node.js",
     image: "node.png",
@@ -92,17 +71,13 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/akhilroyal5187/profilecard/?igsh=emNkeTh6dGZ3MHhj",
   },
+
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    name: "Linkdin",
+    icon : RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/akhilroyal5187/",
   },
 ] as const;
 
@@ -131,30 +106,15 @@ export const FRONTEND_SKILL = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
+ 
   {
     skill_name: "React",
     image: "react.png",
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
+  
+  
   {
     skill_name: "TypeScript",
     image: "ts.png",
@@ -194,30 +154,14 @@ export const BACKEND_SKILL = [
     width: 55,
     height: 55,
   },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
-  },
+  
   {
     skill_name: "MySQL",
     image: "mysql.png",
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
-  },
+  
 ] as const;
 
 export const FULLSTACK_SKILL = [
@@ -228,120 +172,100 @@ export const FULLSTACK_SKILL = [
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
     skill_name: "Docker",
     image: "docker.png",
     width: 70,
     height: 70,
   },
 
-  {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
-  },
 ] as const;
 
 export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
+ 
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: " Food Delivery Landing Page",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      'This food delivery landing page showcases a light theme with a clean, modern design. Built with HTML, CSS, and JavaScript, and styled using Tailwind CSS, it offers a sleek and efficient user interface. The page features engaging animations, vibrant visuals of food, and prominent call-to-action buttons to guide users. Its designed to provide a professional and inviting experience, making it perfect for food service businesses looking to attract and engage customers.',
+    image: "/projects/project-01.png",
+    link: "https://dancing-syrniki-c21ef8.netlify.app/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Amazon Clone",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      'A full-stack Amazon clone built using React, Tailwind CSS, Node.js, and MongoDB. This project replicates key features of Amazon, including user authentication, product listings, shopping cart, and order management. With a responsive UI and fully integrated backend, it offers a complete e-commerce experience from browsing to checkout.',
+    image: "/projects/project02.png",
+    link: "https://github.com/AkhilRoyal-5187/Codedale-Assignments",
   },
   {
-    title: "Space Themed Website",
+    title: "TIC TAC TOE",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      'A classic Tic Tac Toe game built using React, Tailwind CSS, and JavaScript. This interactive project features a clean UI, smooth game logic, and real-time win detection. Players can enjoy a seamless two-player experience with instant feedback and a reset option — all on a responsive and minimal interface.',
+    image: "/projects/project03.png",
+    link: "https://timely-cassata-3c7181.netlify.app/",
   },
 ] as const;
 
 export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
-  },
+  // {
+  //   title: "Community",
+  //   data: [
+  //     {
+  //       name: "YouTube",
+  //       icon: FaYoutube,
+  //       link: "https://youtube.com",
+  //     },
+  //     {
+  //       name: "GitHub",
+  //       icon: RxGithubLogo,
+  //       link: "https://github.com/AkhilRoyal-5187/",
+  //     },
+      
+  //   ],
+  // },
   {
     title: "Social Media",
     data: [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/akhilroyal5187/profilecard/?igsh=emNkeTh6dGZ3MHhjhttps://www.instagram.com/akhilroyal5187/profilecard/?igsh=emNkeTh6dGZ3MHhj",
       },
       {
         name: "Twitter",
         icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        link: "https://x.com/royal49554?t=Kn5bjnISdedt7u3FqVzWVw&s=09",
       },
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "www.linkedin.com/in/akhilroyal5187",
+      },
+      {
+        name: "GitHub",
+        icon: RxGithubLogo,
+        link: "https://github.com/AkhilRoyal-5187/",
+      },
+      {
+        name: "Mail",
+        icon: null,
+        link: "mailto:akhilroyal5187@gmail.com",
       },
     ],
   },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
-      },
-    ],
-  },
+  // {
+  //   title: "About",
+  //   data: [
+      
+  //     {
+  //       name: "Contact Me",
+  //       icon: null,
+  //       link: "mailto:akhilroyal5187@gmail.com",
+  //     },
+  //   ],
+  // },
 ] as const;
 
 export const NAV_LINKS = [
@@ -357,8 +281,9 @@ export const NAV_LINKS = [
     title: "Projects",
     link: "#projects",
   },
+  
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://drive.google.com/file/d/1af_wrhWe1GRHJla7C_K3gLrthIbAWJVF/view?usp=drivesdk",
 };
