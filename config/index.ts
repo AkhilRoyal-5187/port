@@ -35,7 +35,7 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "N A K S S RAKESH ",
+    url: "https://github.com/AkhilRoyal-5187",
   },
 } as const;

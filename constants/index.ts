@@ -106,24 +106,15 @@ export const FRONTEND_SKILL = [
     width: 80,
     height: 80,
   },
- 
   {
     skill_name: "React",
     image: "react.png",
     width: 80,
     height: 80,
   },
-  
-  
   {
     skill_name: "TypeScript",
     image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
     width: 80,
     height: 80,
   },
@@ -166,6 +157,12 @@ export const BACKEND_SKILL = [
 
 export const FULLSTACK_SKILL = [
   {
+    skill_name: "Next.js 14",
+    image: "next.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "React Native",
     image: "reactnative.png",
     width: 70,
@@ -177,7 +174,6 @@ export const FULLSTACK_SKILL = [
     width: 70,
     height: 70,
   },
-
 ] as const;
 
 export const OTHER_SKILL = [
