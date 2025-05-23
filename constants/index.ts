@@ -186,25 +186,25 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: " Food Delivery Landing Page",
+    title: "Food Delivery",
     description:
-      'This food delivery landing page showcases a light theme with a clean, modern design. Built with HTML, CSS, and JavaScript, and styled using Tailwind CSS, it offers a sleek and efficient user interface. The page features engaging animations, vibrant visuals of food, and prominent call-to-action buttons to guide users. Its designed to provide a professional and inviting experience, making it perfect for food service businesses looking to attract and engage customers.',
+      'Crafted engaging user interfaces with smooth scrolling, hover animations, and intuitive layout structures. Implemented navigation menus, food filters, and buttons to simulate real-world ordering flows.Deployed the application on Netlify, enabling fast access and seamless performance. Tech Stacks : HTML, CSS, JavaScript , BootStrap',
     image: "/projects/project-01.png",
     link: "https://dancing-syrniki-c21ef8.netlify.app/",
   },
   {
-    title: "Amazon Clone",
+    title: "Lemon Park",
     description:
-      'A full-stack Amazon clone built using React, Tailwind CSS, Node.js, and MongoDB. This project replicates key features of Amazon, including user authentication, product listings, shopping cart, and order management. With a responsive UI and fully integrated backend, it offers a complete e-commerce experience from browsing to checkout.',
+      'A Frontend project built using React, Tailwind CSS, Node.js, and MongoDB. This project replicates key features of Lemon Park, . With a responsive UI and fully integrated backend, it offers a complete e-commerce experience from browsing to checkout.',
     image: "/projects/project02.png",
-    link: "https://github.com/AkhilRoyal-5187/Codedale-Assignments",
+    link: "https://lemonpark.vercel.app/",
   },
   {
-    title: "TIC TAC TOE",
+    title: "Bus Pass Management System",
     description:
-      'A classic Tic Tac Toe game built using React, Tailwind CSS, and JavaScript. This interactive project features a clean UI, smooth game logic, and real-time win detection. Players can enjoy a seamless two-player experience with instant feedback and a reset option — all on a responsive and minimal interface.',
+      'Developed a web app to digitize bus pass issuance and verification for students. Included admin approval, Excel data handling, and student ID validation.Tech Stack: React.js, Node.js, Express.js, PostgreSQL, Prisma ORM',
     image: "/projects/project03.png",
-    link: "https://timely-cassata-3c7181.netlify.app/",
+    link: "https://bus-five-beige.vercel.app/",
   },
 ] as const;
 

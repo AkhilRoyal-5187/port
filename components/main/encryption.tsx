@@ -51,7 +51,7 @@ export const Encryption = () => {
                 <div className="text-center">
                   <h2 className="text-2xl font-semibold mb-2 text-gray-500 mt-14">💼 Work Experience</h2>
                   <p className="text-l text-gray-200">MERN Stack Developer Intern</p>
-                  <p className="text-l text-gray-300">Codedale Tech Solutions, March 2025 – May 2025</p>
+                  <p className="text-l text-gray-300">Codedale Tech Solutions, March 2025 – Present</p>
                 </div>
               </div>
         </div>
