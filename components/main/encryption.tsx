@@ -7,7 +7,7 @@ import { slideInFromTop } from "@/lib/motion";
 
 export const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full -z-20">
+    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-auto -z-20">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
@@ -44,14 +44,14 @@ export const Encryption = () => {
         <div className="grid grid-cols-5 grid-rows-5 gap-4">
               <div className="col-span-3 row-span-5 col-start-2">
                 <div className="text-center">
-                  <h2 className="text-2xl font-semibold mb-2 text-gray-500 mt-20">🎓 Education</h2>
-                  <p className="text-l text-gray-200">B.Tech in Computer Science</p>
-                  <p className="text-l text-gray-300">Gayathri Vidhya Parishad College of Engineering, 2021 – 2025</p>
+                  <h2 className="text-4xl font-semibold mb-2 text-gray-500 mt-20">🎓 Education</h2>
+                  <p className="text-xl text-gray-200">B.Tech in Computer Science</p>
+                  <p className="text-xl text-gray-300">Gayathri Vidhya Parishad College of Engineering, 2021 – 2025</p>
                 </div>
                 <div className="text-center">
-                  <h2 className="text-2xl font-semibold mb-2 text-gray-500 mt-14">💼 Work Experience</h2>
-                  <p className="text-l text-gray-200">MERN Stack Developer Intern</p>
-                  <p className="text-l text-gray-300">Codedale Tech Solutions, March 2025 – Present</p>
+                  <h2 className="text-4xl font-semibold mb-2 text-gray-500 mt-14">💼 Work Experience</h2>
+                  <p className="text-xl text-gray-200">MERN Stack Developer Intern</p>
+                  <p className="text-xl text-gray-300">Codedale Tech Solutions, March 2025 – Present</p>
                 </div>
               </div>
         </div>
